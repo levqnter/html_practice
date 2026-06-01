@@ -1,0 +1,136 @@
+<!-- assignements lessons 19 - 23 -->
+<!-- url: https://elzero.org/html-assignments-lesson-from-19-to-23/ -->
+<!-- [ 4 ] تكليفات خاصة ب [ Layout, Media ] -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- 🟦🟦🟦🟦2️⃣🟦🟦🟦🟦 -->
+
+<body style="margin: 0px;">
+    <header>
+        <h1 style="margin: 20px; text-align : center;">WiWiWebsite</h1>
+
+        <table width="100%" style="text-align : center; 
+        border-top: 2px solid black; 
+        border-bottom: 2px solid black; 
+        padding-top: 5px;
+        padding-bottom: 5px;">
+            <tr>
+                <td><a href="" title="go to link_1">Link_1</a></td>
+                <td><a href="" title="go to link_2">Link_2</a></td>
+                <td><a href="" title="go to link_3">Link_3</a></td>
+                <td><a href="" title="go to link_4">Link_4</a></td>
+                <td><a href="" title="go to link_5">Link_5</a></td>
+            </tr>
+        </table>
+
+    </header>
+
+    <main style="display: flex; padding: 20px; gap: 15px">
+
+        <nav style="flex: 1; border: 2px dashed black;  
+        height: 100px; 
+        padding: 10px;">
+
+            <dl style="width: 80px; margin:0px;
+            text-align: center;">
+                <dt><a href="" title="go to link_6">Link_6</a></li>
+                <dt><a href="" title="go to link_7">Link_7</a></li>
+                <dt><a href="" title="go to link_8">Link_8</a></li>
+                <dt><a href="" title="go to link_9">Link_9</a></li>
+                <dt><a href="" title="go to link_10">Link_10</a></li>
+            </dl>
+
+        </nav>
+
+        <section style=" flex:8; border: 2px solid black;">
+            <article style="padding: 15px;">
+                <h2 style="margin: 0px;">article_1</h2>
+                <p style="margin: 0px;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quis blanditiis cupiditate modi,
+                    laudantium, vitae sit veritatis in tempora cumque vel. Ipsa veritatis deleniti facere molestiae
+                    sapiente, tempore optio quasi!
+                </p><br>
+
+                <img src="https://placehold.co/250x50/F00/094" alt="image"><br><br>
+                <!-- 🟦🟦🟦🟦3️⃣🟦🟦🟦🟦 -->
+                <audio src="C:\Users\pc\Downloads\sounds\egypt_cat.mp3" type="egypt_cat.mp3/mp3" controls autoplay
+                    loop></audio><br>
+
+                <audio src="C:\Users\pc\Downloads\sounds\egypt_cat.xyz" type="egypt_cat.mp3/xyz"
+                    controls></audio><br><br>
+                <!-- unsupported/non-existenst extention -->
+
+                <a href="">إقرأ للمزيد</a>
+
+            </article>
+
+            <hr style="margin: 0px;">
+
+            <article style="padding: 15px;">
+                <h2 style="margin: 0px;">article_2</h2>
+                <p style="margin: 0px;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quis blanditiis cupiditate modi,
+                    laudantium, vitae sit veritatis in tempora cumque vel. Ipsa veritatis deleniti facere molestiae
+                    sapiente, tempore optio quasi!
+                </p><br>
+
+                <!-- 🟦🟦🟦🟦4️⃣🟦🟦🟦🟦 -->
+                <div style="display: flex; justify-content: center;">
+                    <video src="C:\Users\pc\Downloads\demo.mp4" type="demo/mp4"
+                        poster="C:\Users\pc\Downloads\chicken-screaming-on-tree.jpg" controls muted
+                        style="width: 400px; height: 225px; object-fit: cover;">
+                        <!-- "object-fit: cover;"" makes the poster cover the vid, no empty spaces -->
+
+                        <track src="captions_en.vtt" kind="captions" label="en dub">
+                        </track>
+                        <track src="subtitles_en.vtt" kind="subtitles" label="en sub">
+                        </track>
+
+                    </video>
+                </div>
+                <br><br>
+
+                <a href="">إقرأ للمزيد</a>
+            </article>
+
+            <hr style="margin: 0px;">
+
+            <article style="padding: 15px;">
+                <h2 style="margin: 0px;">article_3</h2>
+                <p style="margin: 0px;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quis blanditiis cupiditate modi,
+                    laudantium, vitae sit veritatis in tempora cumque vel. Ipsa veritatis deleniti facere molestiae
+                    sapiente, tempore optio quasi!
+                </p><br>
+                <img src="https://placehold.co/250x50/00F/094" alt="image">
+                <br> <br>
+                <a href="">إقرأ للمزيد</a>
+            </article>
+
+        </section>
+
+        <aside style="flex: 3; border: 2px solid black; padding: 15px;">
+            <ul>
+                <li>Category_1</li>
+                <li>Category_2</li>
+                <li>Category_3</li>
+                <li>Category_4</li>
+                <li>Category_5</li>
+            </ul>
+        </aside>
+
+
+    </main>
+
+    <footer style="border-top: 2px solid black; text-align: center; padding: 10px;">Copyright 2026 &copy;</footer>
+
+</body>
+
+</html>
