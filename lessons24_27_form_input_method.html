@@ -1,0 +1,57 @@
+<!-- assignements lessons 24 - 27 -->
+<!-- [ 3 ] تكليفات خاصة ب [ Form pt.2 ] -->
+<!-- url: https://elzero.org/html-assignments-lesson-from-24-to-27/ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <!-- label for id -->
+        <label for="username">username</label><br>
+        <input type="text" id="username" name="username" required placeholder="required">
+        <br><br>
+        <hr>
+
+        <label for="">password</label><br>
+        <input type="password" id="password" name="password" placeholder="enter">
+        <br><br>
+        <hr>
+
+        <label for="mobile">mobile</label><br>
+        <input type="tel" id="mobile" name="mobile" placeholder="+20100 (234) 123" pattern="\+\d{5} \(\d{3}\) \d{3}">
+        <!-- +20100 (234) 123 -->
+        <br><br>
+        <hr>
+
+        <label for="email">email</label><br>
+        <input type="email" id="email" name="email" required placeholder="required">
+        <br><br>
+        <hr>
+
+        <label for="subject">subject</label><br>
+        <input type="text" id="subject" name="subject" placeholder="enter">
+        <br><br>
+        <hr>
+
+        <label for="age">age</label><br>
+        <input type="range" id="age" name="age" min="100" max="500" step="50" value="400">
+        <br><br>
+        <hr>
+
+
+        <input type="text" value="IM A HIDDEN TEXT, NOW YOU SEE ME!" hidden>
+
+        <input type="reset" value="empty form">
+
+        <input type="submit" value="send data">
+
+    </form>
+</body>
+
+</html>
