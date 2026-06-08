@@ -1,0 +1,53 @@
+/* 🟦🟦🟦🟦1️⃣🟦🟦🟦🟦 */
+.assignement1 {
+    display: inline-block;
+    background-color: rgb(182, 172, 172);
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+    outline: 5px solid fuchsia;
+
+}
+
+.shape-1 {
+    border: 5px rgb(180, 38, 38) solid;
+}
+
+.shape-2 {
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue green;
+}
+
+.shape-3 {
+    border-width: 5px;
+    border-style: dashed;
+    border-color: red green blue yellow;
+}
+
+/* 🟦🟦🟦🟦2️⃣🟦🟦🟦🟦 */
+.element {
+    width: 400px;
+    background-color: rgb(182, 172, 172);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px;
+    outline: 5px solid rgb(182, 172, 172);
+    border: none;
+    border-left-width: 5px;
+    border-left-style: solid;
+}
+
+.element-1 {
+    border-left-color: red;
+}
+
+.element-2 {
+    border-left-color: blue;
+    visibility: hidden;
+}
+
+.element-3 {
+    border-left-color: green;
+}
