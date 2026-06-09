@@ -1,0 +1,34 @@
+/* 🟦🟦🟦🟦1️⃣🟦🟦🟦🟦 */
+.title {
+    color: red;
+}
+
+.child + .title {
+    color: blue;
+}
+
+/* .parent p {
+    color: green;
+}
+
+body > .title {
+    color: green;
+} */
+
+body > .title, .parent p {
+    color: green;
+} 
+
+/* 🟦🟦🟦🟦2️⃣🟦🟦🟦🟦 */
+
+.assignement2 div {
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+    max-width: 400px;
+    max-height: 30px;
+    overflow-y: auto ;
+    background-color: brown;
+}
+
+
