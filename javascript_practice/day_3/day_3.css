@@ -1,0 +1,66 @@
+#pageTitle {
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+#errorBarDisplay {
+  display: none;
+}
+
+#errorBarContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fef0f0;
+  color: #fa5965;
+  height: 50px;
+  width: 400px;
+  border-radius: 10px;
+  position: relative;
+  left: 10px;
+  text-align: center;
+}
+
+#errorBarText {
+}
+
+#search-div {
+  padding: 10px;
+}
+
+#search-bar {
+  width: 200px;
+}
+
+#table {
+  display: none;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #cccccc;
+}
+
+thead {
+  background-color: #f7df2a;
+}
+
+td {
+  padding: 10px;
+  width: 300px;
+}
+
+.fieldColumn {
+  background-color: #eee;
+}
+
+.valueColumn {
+  background-color: #ffffff;
+} 
+
+img {
+}
