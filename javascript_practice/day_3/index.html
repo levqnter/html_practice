@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="day3.css" />
+  </head>
+  <body>
+    <h1 id="pageTitle">Pokémon Search Engine</h1>
+    <div id="search-div">
+      <input
+        type="text"
+        name="pokémonName"
+        id="search-bar"
+        placeholder="Enter Pokémon name to get data"
+      />
+      <button id="search-btn">search</button>
+    </div>
+    <div id="errorBarDisplay">
+      <div id="errorBarContainer">
+        <p id="errorBarText">Error (insert something)</p>
+      </div>
+    </div>
+
+    <div id="table">
+      <table>
+        <thead>
+          <tr>
+            <td>field</td>
+            <td>value</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="fieldColumn">image</td>
+            <td class="valueColumn" id="image-fetch"></td>
+          </tr>
+          <tr> 
+            <td class="fieldColumn">name</td>
+            <td class="valueColumn" id="name-fetch"></td>
+          </tr>
+          <tr>
+            <td class="fieldColumn">power level</td>
+            <td class="valueColumn" id="powerLevel-fetch"></td>
+          </tr>
+          <tr>
+            <td class="fieldColumn">height</td>
+            <td class="valueColumn" id="height-fetch"></td>
+          </tr>
+          <tr>
+            <td class="fieldColumn">weight</td>
+            <td class="valueColumn" id="weight-fetch"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <script src="day3_task_sol.js"></script>
+  </body>
+</html>
